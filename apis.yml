@@ -1,8 +1,15 @@
 aid: eve-com
 name: Eve Com
-description: Eve Com is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Eve.com was a dot-com era e-commerce retailer of prestige beauty and personal
+  care products, founded in 1998 by Mariam Naficy and Varsha Rao. It raised
+  venture funding from Lightspeed Venture Partners (1999) and reached a Series B
+  before being acquired by Idealab in 2000, after which the business ceased
+  independent operations. It is retained in the API Evangelist network only as a
+  historical Lightspeed portfolio lead; it published no developer program, API,
+  SDKs, or documentation. The eve.com domain is today operated by an unrelated
+  entity (CCP Games / the EVE Online game universe) and is not a surface for this
+  company, so no live API or developer artifacts can be harvested for it.
 url: https://raw.githubusercontent.com/api-evangelist/eve-com/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,36 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Idealab in 2000; ceased independent operations. No API/developer surface. eve.com domain now belongs to unrelated CCP Games (EVE Online).
+x-enrichment: 'no-api-surface: defunct 2000-era e-commerce company; no APIs, docs, packages, or security surface to enrich as of 2026-07-19'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eve-com.png
 tags:
 - Company
+- E-Commerce
+- Retail
+- Beauty
+- Cosmetics
+- Consumer
+- Defunct
+- Dot-Com
+- Lightspeed Portfolio
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
