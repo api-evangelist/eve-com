@@ -20,6 +20,17 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: Acquired by Idealab in 2000; ceased independent operations. No API/developer surface. eve.com domain now belongs to unrelated CCP Games (EVE Online).
 x-enrichment: 'no-api-surface: defunct 2000-era e-commerce company; no APIs, docs, packages, or security surface to enrich as of 2026-07-19'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
